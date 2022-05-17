@@ -1,38 +1,254 @@
-.App {
-  text-align: center;
+/*app*/
+html{
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.arrow{
+  width: 50px;
+  height: 50px;
+  background-color: #118DA8;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: fixed;
+}
+.App {
+  display: flex;
+}
+.appWrapper{
+  width: 100%;
+  background: rgba(25, 25, 25, 1);
+  padding: 40px;
+}
+section, footer{
+  width: 100%;
+  margin: 100px 0;
+}
+/*app*/
+/**/
+/**/
+/**/
+/*header*/
+.App-header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerImg{
+  height: 32px;
+  width: 159px;
+}
+.headerLinks{
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 40px;
+  text-decoration: none;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+} .headerLinks:hover{
+    color: #118DA8;
   }
-  to {
-    transform: rotate(360deg);
-  }
+/*header*/
+/**/
+/**/
+/**/
+/*home*/
+.home{
+  display: flex;
 }
+.homeFirstBlock{
+  width: 45%;
+}
+.homeLogo{
+  position: relative;
+  top: 60px;
+  right: 20px;
+}
+.homeImg{
+  width: 100%;
+  border-radius: 12px;
+}
+.homeSecondBlock{
+  width: 55%;
+  margin: 60px;
+}
+.homeTitle{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  position: relative;
+  top: 40px;
+}
+.homeLogo2{
+  width: 130px;
+  position: relative;
+  bottom: 35px;
+}
+/*home*/
+/**/
+/**/
+/**/
+/*episodes*/
+.episodesBlock{
+  display: flex;
+  background-color: black;
+  width: 100%;
+  max-height: 512px;
+  margin-bottom: 60px;
+  border-radius: 32px;
+}
+.epiMargin{
+  margin: 40px;
+  display: flex;
+}
+.epiContentBlock{
+  margin-left: 40px;
+}
+.episodesType{
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(25, 25, 25, 1);
+  width: 37px;
+}
+.episodesType2{
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(25, 25, 25, 1);
+  width: 90px;
+}
+.episodesNumber{
+  color: rgba(17, 141, 168, 1);
+}
+.episodesDesc{
+  position: relative;
+  bottom: 50px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.episodesBtn{
+  height: 51px;
+  width: 208px;
+  border-radius: 6px;
+  background: #118DA8;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  bottom: 30px;
+  cursor: pointer;
+} .episodesBtn2{
+    height: 51px;
+    width: 208px;
+    border-radius: 6px;
+    background: #118DA8;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    bottom: 55px;
+    cursor: pointer;
+  }
+.epiTitle{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+}
+/*episodes*/
+/**/
+/**/
+/**/
+/*about*/
+.aboutWrapper{
+  display: flex;
+}
+.aboutBlock{
+  width: 50%;
+}
+.aboutBlock2{
+  width: 50%;
+}
+.aboutImg{
+   width: 100%;
+}
+.aboutDesc{
+  margin: 30px 0;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+/*about*/
+/**/
+/**/
+/**/
+/*contact*/
+.contactWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.contactInput{
+  height: 52px;
+  width: 100%;
+  border-radius: 6px;
+  background: #191919;
+  border: 1px solid #191919;
+  margin: 10px 0;
+  position: relative;
+  top: 30%;
+  color: white;
+  font-size: 15px;
+} input::placeholder{
+  color: white;
+  }
+.contactBlock{
+  width: 50%;
+}
+.contactBlock2{
+  width: 50%;
+}
+.contactLogo{
+  width: 100px;
+  position: relative;
+  right: 90%;
+  top: 165px;
+}
+.contactBtn{
+  height: 51px;
+  width: 100px;
+  border-radius: 6px;
+  background: #118DA8;
+  color: white;
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+  top: 100px;
+}
+/*contact*/
+/**/
+/**/
+/**/
+/*reviews*/
+.reviewsWrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.reviewsBlock{
+  width: 347px;
+  background-color: black;
+  height: 200px;
+  border-radius: 32px;
+  margin: 8px;
+  padding: 30px;
+}
+.reviewsDesc{
+  font-family: DM Sans, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: -15px;
+}
+.reviewsImg{
+  margin: 2px;
+}
+.reviewsTitle{
+  font-family: DM Sans, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: left;
+}
+/*reviews*/
