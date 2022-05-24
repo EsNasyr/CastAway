@@ -252,3 +252,8 @@ section, footer{
   text-align: left;
 }
 /*reviews*/
+/*footer*/
+.footerWrapper{
+  display: flex;
+}
+/*footer*/
