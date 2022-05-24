@@ -255,5 +255,29 @@ section, footer{
 /*footer*/
 .footerWrapper{
   display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+  position: relative;
+  right: 100px;
+}
+.footerTitle{
+  font-size: 35px;
+  font-weight: 500;
+}
+li{
+  margin: 10px 0;
+}
+.footerLink{
+  text-decoration: none;
+  color: white;
+  margin: 10px 0;
+} .footerLink:hover{
+  color: #118DA8;
+  }
+.footerImg{
+  position: relative;
+  bottom: 70px;
 }
 /*footer*/
