@@ -5,7 +5,8 @@ import Episodes from "./Pages/Episodes/Episodes";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Reviews from "./Pages/Reviews/Reviews";
-import {useState} from "react";
+import "@fortawesome/fontawesome-svg-core"
+import icon from '../src/Images/arrow-up-solid.svg'
 import Footer from "./Pages/Footer/Footer";
 
 function App() {
@@ -23,7 +24,6 @@ function App() {
                     <a href="#reviews" className="headerLinks">Reviews</a>
                 </nav>
 
-                <div className="arrow"><a href="#">-</a></div>
             </header>
             <Home />
             <Episodes/>

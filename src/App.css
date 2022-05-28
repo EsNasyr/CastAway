@@ -8,6 +8,11 @@ html{
   background-color: #118DA8;
   display: flex;
   position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.iconArrow{
+  background-color: white;
 }
 .App {
   display: flex;
